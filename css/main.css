@@ -515,6 +515,13 @@ body {
   text-decoration: none;
   color: #222222;
   margin-right: 50px;
+  opacity: 60%;
+}
+
+.media-menu-item:hover {
+  opacity: 100%;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .media-box {
@@ -559,6 +566,8 @@ body {
 .media-video-img {
   width: 180px;
   height: 120px;
+  -webkit-box-shadow: 0px 17px 17px -15px #333;
+          box-shadow: 0px 17px 17px -15px #333;
 }
 
 .media-video-item-time {
@@ -575,6 +584,8 @@ body {
   padding: 0;
   position: relative;
   top: -50px;
+  font-weight: 700;
+  color: #222222;
 }
 
 .lines {
@@ -584,7 +595,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 10px;
 }
 
 .thin-line {
@@ -602,13 +612,32 @@ body {
 
 .play-icon {
   position: relative;
+  cursor: pointer;
   top: -90px;
   opacity: 0;
 }
 
+.play-music-icon {
+  position: relative;
+  top: -75px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.play-icon:hover {
+  opacity: 100%;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.play-music-icon:hover {
+  opacity: 100%;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
 .music__section {
   margin-top: 10px;
-  padding-bottom: 50px;
 }
 
 .music {
@@ -632,13 +661,17 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 20px;
 }
 
 .music-box-img {
   width: 74px;
   height: 73px;
   margin-right: 10px;
+}
+
+.music-img {
+  -webkit-box-shadow: 0px 17px 17px -15px #333;
+          box-shadow: 0px 17px 17px -15px #333;
 }
 
 .music-box-title {
@@ -674,6 +707,27 @@ body {
 
 .time {
   color: #acacac;
+}
+
+.music-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+.music-item {
+  text-align: center;
+}
+
+.music-title {
+  position: relative;
+  margin-top: -50px;
+  font-weight: 700;
+  color: #222222;
 }
 
 .visually-hidden {

@@ -1,6 +1,5 @@
 .music__section {
   margin-top: 10px;
-  padding-bottom: 50px;
 }
 
 .music {
@@ -20,13 +19,16 @@
 .music-box {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
 }
 
 .music-box-img {
   width: 74px;
   height: 73px;
   margin-right: 10px;
+}
+
+.music-img {
+  box-shadow: 0px 17px 17px -15px #333;
 }
 
 .music-box-title {
@@ -58,4 +60,21 @@
 
 .time {
   color: #acacac;
+}
+
+.music-menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.music-item {
+  text-align: center;
+}
+
+.music-title {
+  position: relative;
+  margin-top: -50px;
+  font-weight: 700;
+  color: #222222;
 }

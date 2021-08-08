@@ -1,5 +1,23 @@
 .play-icon {
   position: relative;
+  cursor: pointer;
   top: -90px;
   opacity: 0;
+}
+
+.play-music-icon {
+  position: relative;
+  top: -75px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.play-icon:hover {
+  opacity: 100%;
+  transition: 0.3s ease;
+}
+
+.play-music-icon:hover {
+  opacity: 100%;
+  transition: 0.3s ease;
 }
