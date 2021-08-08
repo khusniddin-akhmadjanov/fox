@@ -1,0 +1,61 @@
+.music__section {
+  margin-top: 10px;
+  padding-bottom: 50px;
+}
+
+.music {
+  display: flex;
+  align-items: center ;
+}
+
+.music-icon {
+  margin-left: 30px;
+  margin-right: 70px;
+}
+
+.play-music-box {
+
+}
+
+.music-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.music-box-img {
+  width: 74px;
+  height: 73px;
+  margin-right: 10px;
+}
+
+.music-box-title {
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  color: #222222;
+}
+
+.music-box-subtitle {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+}
+
+.input-range {
+  margin: 0 15px;
+  width: 250px;
+  cursor: pointer;
+  outline: none;
+  background: #222222;
+}
+
+.time {
+  color: #acacac;
+}
