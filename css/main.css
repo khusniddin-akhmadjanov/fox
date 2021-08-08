@@ -593,6 +593,7 @@ body {
   top: -50px;
   font-weight: 700;
   color: #222222;
+  text-decoration: none;
 }
 
 .lines {
@@ -615,6 +616,7 @@ body {
   background-color: #b3cef2;
   height: 6px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .play-icon {
@@ -741,6 +743,7 @@ body {
   position: relative;
   margin-top: -50px;
   font-weight: 700;
+  cursor: pointer;
   color: #222222;
 }
 
