@@ -341,6 +341,30 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/montserrat-v17-latin-regular.woff2") format("woff2"), url("../fonts/montserrat-v17-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/montserrat-v17-latin-700.woff2") format("woff2"), url("../fonts/montserrat-v17-latin-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/montserrat-v17-latin-regular.woff2") format("woff2"), url("../fonts/montserrat-v17-latin-regular.woff") format("woff");
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -379,6 +403,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: #a3c5f3;
+  font-family: "Montserrat";
 }
 
 .section {
@@ -442,6 +467,7 @@ body {
   padding: 0;
   margin: 0;
   color: #ffffff;
+  font-family: "Montserrat";
   font-weight: 700;
 }
 
@@ -450,12 +476,14 @@ body {
   padding: 0;
   color: #ffffff;
   font-weight: 900;
+  font-family: "Montserrat";
   text-transform: uppercase;
 }
 
 .top-styles__item-text-active {
   color: #ffffff;
   font-size: 30px;
+  font-family: "Montserrat";
   font-weight: 700;
   padding: 0;
   margin: 0;
@@ -464,6 +492,7 @@ body {
 .top-styles-date {
   color: #dfd2d2;
   font-size: 25px;
+  font-family: "Montserrat";
   width: 170px;
   margin-left: 50px;
 }
@@ -475,6 +504,7 @@ body {
 
 .top-styles-time {
   font-size: 70px;
+  font-family: "Montserrat";
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -485,6 +515,7 @@ body {
   color: #ffffff;
   text-transform: uppercase;
   font-size: 25px;
+  font-family: "Montserrat";
   margin-top: 45px;
   margin-left: 10px;
 }
@@ -509,6 +540,7 @@ body {
   margin-left: 100px;
   margin-right: 50px;
   font-weight: 700;
+  font-family: "Montserrat";
   font-size: 24px;
 }
 
@@ -581,6 +613,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 14px;
+  font-family: "Montserrat";
   color: #8f8f8f;
   position: relative;
   top: -50px;
@@ -591,7 +624,9 @@ body {
   padding: 0;
   position: relative;
   top: -50px;
+  font-size: 14px;
   font-weight: 700;
+  font-family: "Montserrat";
   color: #222222;
   text-decoration: none;
 }
@@ -695,11 +730,13 @@ body {
   margin: 0;
   font-weight: 700;
   font-size: 16px;
+  font-family: "Montserrat";
   color: #222222;
 }
 
 .music-box-subtitle {
   font-size: 14px;
+  font-family: "Montserrat";
   margin: 0;
   padding: 0;
 }
@@ -743,6 +780,7 @@ body {
   position: relative;
   margin-top: -50px;
   font-weight: 700;
+  font-family: "Montserrat";
   cursor: pointer;
   color: #222222;
 }
